@@ -29,7 +29,7 @@ const judges = [
   {
     name: "Nirmal",
     role: "Computer Science and Business Systems",
-    image: "source/nirmal.jpg",
+    image: "source/nirmal.JPG",
     linkedin: "https://www.linkedin.com/in/nirmalkumar005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     phone: "9489525505"
   }
