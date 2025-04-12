@@ -63,7 +63,7 @@ export function Navbar() {
             asChild
             className="bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-600 hover:to-teal-500 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105"
           >
-            <Link href="https://forms.google.com/register" target="_blank">
+            <Link href="https://forms.gle/xvVz6zHYuK2XTUNo8" target="_blank">
               Register Now
             </Link>
           </Button>

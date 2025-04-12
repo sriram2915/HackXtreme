@@ -8,19 +8,19 @@ const prizes = [
     icon: Trophy,
     place: "1st Place",
     prize: "₹15,000",
-    benefits: ["Cash Prize", "Grant check"]
+    benefits: ["Cash Prize", "Giant check"]
   },
   {
     icon: Award,
     place: "2nd Place",
     prize: "₹10,000",
-    benefits: ["Cash Prize", "Grant check"]
+    benefits: ["Cash Prize", "Giant check"]
   },
   {
     icon: Gift,
     place: "3rd Place",
     prize: "₹5,000",
-    benefits: ["Cash Prize", "Shields"]
+    benefits: ["Cash Prize", "Giant check"]
   }
 ]
 

@@ -37,41 +37,43 @@ export default function FAQ() {
   }
 
   return (
-    <section id="faq" className="py-20 px-4 md:px-6">
-      <div className="container mx-auto">
+    <section id="faq" className="py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto">
         <motion.h2 
-          className="text-4xl md:text-5xl font-bold text-center mb-12 neon-glow"
+          className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 neon-glow"
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}  
           transition={{ duration: 0.5 }}
         >
           Frequently Asked Questions
         </motion.h2>
-        <div className="space-y-8">
+
+        <div className="space-y-6">
           {faqs.map((faq, index) => (
             <motion.div
               key={index}
-              className="glass-card p-8"
+              className="glass-card p-6 sm:p-8 rounded-xl"
               initial={{ y: 20, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
+              transition={{ duration: 0.5, delay: index * 0.15 }}
               viewport={{ once: true }}
             >
               <button
-                className="w-full flex justify-between items-center text-left focus:outline-none"
+                className="w-full flex justify-between items-start sm:items-center text-left focus:outline-none"
                 onClick={() => toggleAccordion(index)}
               >
                 <div>
-                  <p className="text-sm text-gray-400">{faq.category}</p>
-                  <h3 className="text-xl font-semibold">{faq.question}</h3>
+                  <p className="text-xs sm:text-sm text-gray-400">{faq.category}</p>
+                  <h3 className="text-lg sm:text-xl font-semibold text-white">{faq.question}</h3>
                 </div>
-                <span className="ml-4 text-2xl">
+                <span className="ml-4 text-xl sm:text-2xl font-bold text-blue-400">
                   {openIndex === index ? "−" : "+"}
                 </span>
               </button>
+
               {openIndex === index && (
                 <motion.div 
-                  className="mt-4 text-gray-300"
+                  className="mt-4 text-sm sm:text-base text-gray-300"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 0.3 }}

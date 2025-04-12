@@ -15,14 +15,9 @@ const resources = [
     icon: Book,
     title: "Brochure",
     description: "Event details and Invitation to the event",
-    link: "#"
+    link: "/files/brochure.pdf" // BrochurePDF
   },
-  // {
-  //   icon: Video,
-  //   title: "Workshop Recordings",
-  //   description: "Pre-event training sessions",
-  //   link: "#"
-  // },
+  
   {
     icon: Timer,
     title: "Timeline",
