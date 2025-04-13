@@ -26,7 +26,7 @@ export function AboutSection() {
             <p className="text-base sm:text-lg lg:text-xl text-blue-200 leading-relaxed">
               HackXtreme is more than just a hackathon – it's a platform for innovation in financial technology.
               Organized by the Department of Information Technology and the Department of Computer Science and Business Systems, this 24-hours event brings together developers, designers and create impactful solutions.
-              The challenge is to solve real-world problems in the Fintech space, from improving digital banking systems to enhancing payment solutions and promoting financial inclusion.
+              The challenge is to solve real-world problems in the Future, To make a Better Tomorrow.
             </p>
             <p className="text-base sm:text-lg lg:text-xl text-blue-200 leading-relaxed">
               Join us for an intense journey of coding, creativity, and collaboration.
@@ -42,7 +42,7 @@ export function AboutSection() {
             viewport={{ once: true }}
           >
             <img
-              src="source/about.jpg"
+              src="source/banner.png"
               alt="Hackathon participants collaborating"
               className="w-full h-full object-cover"
             />

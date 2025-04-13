@@ -40,7 +40,7 @@ export default function Home() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Join us in revolutionizing the future of financial technology
+            Join us in revolutionizing the future of Technology
           </motion.p>
           <motion.div 
             className="max-w-3xl mx-auto"
@@ -115,7 +115,7 @@ export default function Home() {
       {/* Sections */}
       <section id="about"><About /></section>
       <section id="schedule"><Schedule /></section>
-      {/* <section id="tracks"><Tracks /></section> */}
+      <section id="tracks"><Tracks /></section> 
       <section id="prizes"><Prizes /></section>
       <section id="judges"><Judges /></section>
       <section id="resources"><Resources /></section>
