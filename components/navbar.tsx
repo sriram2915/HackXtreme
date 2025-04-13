@@ -18,7 +18,6 @@ const navigation = [
   { name: 'Sponser', href: '#tracks' },
   { name: 'Coordinators', href: '#judges' },
   { name: 'Prizes', href: '#prizes' },
-  { name: 'Organizers', href: '#judges' },
   { name: 'Resources', href: '#resources' },
   { name: 'FAQ', href: '#faq' },
   { name: 'Contact', href: '#contact' },
