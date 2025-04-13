@@ -14,7 +14,7 @@ export function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 })
 
   useEffect(() => {
-    const targetDate = new Date('2025-04-28T10:30:00')
+    const targetDate = new Date('2025-04-28T11:30:00')
 
     const calculateTimeLeft = () => {
       const difference = +targetDate - +new Date()
