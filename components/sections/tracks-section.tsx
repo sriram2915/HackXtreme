@@ -15,7 +15,7 @@ const tracks = [
 export function TracksSection() {
   return (
     <section id="tracks" className="py-30 px-4 md:px-6">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center ">
         <motion.h2 
           className="text-4xl md:text-5xl font-bold mb-12 neon-glow"
           initial={{ y: 20, opacity: 0 }}
@@ -31,7 +31,7 @@ export function TracksSection() {
               // key={track.title}
               className="glass-card p-8 mx-auto"
               initial={{ y: 50, opacity: 0 }}
-              whileInView={{ x: 435, y:0, opacity: 1 }}
+              whileInView={{ y:0, opacity: 1 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05 }}
@@ -41,7 +41,7 @@ export function TracksSection() {
                   alt="image"
                   width={146} // Increased size
                   height={106}
-                  className="mx-auto rounded mb-4 object-cover w-full h-full border-2 border-blue-300"
+                  className="mx-auto rounded mb-4 object-cover w-full h-full border-2 border-blue-300 "
                 />
               
               {/* <h3 className="text-2xl font-bold text-blue-100 mb-4">{track.title}</h3> */}

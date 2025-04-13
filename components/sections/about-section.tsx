@@ -24,13 +24,13 @@ export function AboutSection() {
             viewport={{ once: true }}
           >
             <p className="text-base sm:text-lg lg:text-xl text-blue-200 leading-relaxed">
-              HackXtreme is more than just a hackathon – it's a platform for innovation in financial technology.
+              HackXtreme is more than just a hackathon – it's a platform for innovation in technology.
               Organized by the Department of Information Technology and the Department of Computer Science and Business Systems, this 24-hours event brings together developers, designers and create impactful solutions.
               The challenge is to solve real-world problems in the Future, To make a Better Tomorrow.
             </p>
             <p className="text-base sm:text-lg lg:text-xl text-blue-200 leading-relaxed">
               Join us for an intense journey of coding, creativity, and collaboration.
-              Whether you're passionate about developing cutting-edge technology, designing user-friendly interfaces, or creating business models for the future of financial services, HackXtreme is your chance to make a real impact.
+              Whether you're passionate about developing cutting-edge technology, designing user-friendly interfaces, or creating business models for the future, HackXtreme is your chance to make a real impact.
             </p>
           </motion.div>
 
