@@ -57,8 +57,8 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <Button className="neon-button text-lg w-full sm:w-auto" size="lg" asChild>
-              <Link href="https://forms.gle/xvVz6zHYuK2XTUNo8" target="_blank">
-                Register Now <ArrowRight className="ml-2 h-5 w-5" />
+              <Link href="#" target="_blank">
+                Registeration Closed <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </motion.div>
