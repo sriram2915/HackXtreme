@@ -6,6 +6,12 @@ import { Button } from "@/components/ui/button"
 
 const resources = [
   {
+    icon: Download,
+    title: "Submission Template",
+    description: "Template for Submitting Project Proposal",
+    link: "/files/submission.pdf" // RulePDF
+  },
+  {
     icon: FileText,
     title: "Rule Book",
     description: "Complete guidelines and judging criteria",

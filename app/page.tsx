@@ -89,7 +89,7 @@ export default function Home() {
               {
                 icon: Zap,
                 title: "Theme",
-                description: "Ai For Sustainable Living"
+                description: "AI For Sustainable Living"
               }
             ].map((feature, index) => (
               <motion.div

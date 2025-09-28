@@ -20,7 +20,7 @@ export default function FAQ() {
       category: "Logistics",
       question: "What are the dates for HackXtreme'25?",
       answer:
-        "HackXtreme'25 is scheduled to take place from 28th Apr to 29th Apr. Check our official website for the latest schedule updates."
+        "HackXtreme'25 is scheduled to take place from 23th Oct to 24th Oct. Check our official website for the latest schedule updates."
     },
     {
       category: "Logistics",
