@@ -64,6 +64,7 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+    
 
       {/* Features Grid */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 md:px-8">
