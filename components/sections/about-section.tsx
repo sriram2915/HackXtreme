@@ -42,7 +42,7 @@ export function AboutSection() {
             viewport={{ once: true }}
           >
             <img
-              src="source/about.png"
+              src="source/about.jpg"
               alt="Hackathon participants collaborating"
               className="w-full h-full object-cover"
             />
